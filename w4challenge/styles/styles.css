@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    background-color: pink;
+    color: white;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+}
+img {
+    background-color: pink;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
+h1, h2, h3, h4, h5, h6 {
+    background-color: pink;
+    color: white;
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+h2 {
+    background-color: pink;
+    color: white;
+    text-align: center;
+}
+ol {
+    text-align: left;
+    color: black;
+}
+hr {
+    background-color: pink;
+    color: white;
+    height: 3px;
+    margin: 35px 0;
+    background: var(--accent1-color);
+}
+header {
+    background-color: pink;
+    color: white;
+    padding: 1em;
+    font-size: 36px;
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
+}
+
+header p {
+    font-size: 18px;
+}
+
+main p {
+    font-size: 36px;
+    text-align: center;
+}
