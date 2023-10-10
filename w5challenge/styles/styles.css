@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.img-collection {
+    background-color: gray;
+    height: 500px;
+    width: 1280px;
+    padding: 100px;
+    border: 10px round darkolivegreen;
+    box-sizing: border-box;
+}
+
+.desk-img {
+    height: 250px;
+    width: 250px;
+    padding: 0px;
+    margin: 20px;
+    border: 20px solid darkgray;
+    border-radius: 50%;
+}
+
+.graphic-img {
+    height: 250px;
+    width: 250px;
+    padding: 0px;
+    margin: 20px;
+    border: 20px solid darkgray;
+    border-radius: 50%;
+}
+
+.person-img {
+    height: 250px;
+    width: 250px;
+    padding: 0px;
+    margin: 20px;
+    border: 20px solid darkgray;
+    border-radius: 50%;
+}
