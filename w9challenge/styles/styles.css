@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+}
+
+main {
+    grid-column: 2/3;
+    background-color: white;
+    width: 300px;
+    height: 600px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    color: black;
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+.post {
+    text-align: center;
+    grid-row: 2/6;
+    margin: 20px;
+}
+
+.post h3 {
+    color: navy;
+    margin: 0px 0px 0px 0px;
+}
+
+.post h1 {
+    margin: 0 10px;
+}
+
+.post p {
+    color: darkslategrey;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+    column-gap: 1px;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+}
+
+.stats section {
+    justify-content: center;
+    align-items: center;
+}
+
+.stats h2 {
+    margin: 20px 0px 0px 0px;
+}
+
+.stats p {
+    margin: 0px 0px 20px 0px;
+}
