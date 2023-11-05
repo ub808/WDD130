@@ -42,7 +42,6 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     font-family: var(--heading-font);
-    /* background-color: var(--secondary-color); */
     color: var(--accent2-color);
 }
 
@@ -101,9 +100,11 @@ nav a header {
 }
 
 #hero-msg h1, #hero-msg h4 {
-    font-family: var(--accent-font);
+    font-family: var(--heading-font);
     text-align: center;
-    color: white
+    color: var(--paragraph-color-on-color);
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
 }
 
 .icon {
@@ -156,13 +157,14 @@ h4 {
 .button-box {
     font-family: var(--paragraph-font);
     text-align: center;
+    margin: 25px;
 }
 
-main {
+.home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
-main section {
+.home-grid section {
     font-family: var(--paragraph-font);
     text-align: center;
     color: var(--headline-color-on-white);
@@ -227,7 +229,7 @@ main section {
 .book:hover, .join:hover {
     font-family: var(--paragraph-font);
     background-color: var(--accent2-color);
-    color: var(--accent2-color);
+    color: gray;
 }
 
 footer {
@@ -237,7 +239,7 @@ footer {
     background-color: var(--secondary-color);
     color: var(--accent2-color);
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -258,6 +260,60 @@ footer a:hover {
 footer .social img {
     padding-top: 15px;
 }
+
+/* This is for the Rivers Subpage */
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    row-gap: 50px;
+    margin: 0px 50px 0px 50px;
+}
+
+.rivers-header {
+    display: inline-grid;
+    color: black;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-weight: bolder;
+    justify-items: center;
+    align-items: center;
+}
+
+.rivers-idaho {
+    background-color: lightgoldenrodyellow;
+    border: 1px solid;
+    border-radius: 10px;
+    border-style: grey solid;
+    padding: 10px;
+}
+
+.rivers-utah {
+    background-color: lightgoldenrodyellow;
+    border: 1px solid;
+    border-radius: 10px;
+    border-style: grey solid;
+    padding: 10px;
+}
+
+.rivers-arizona {
+    background-color: lightgoldenrodyellow;
+    border: 1px solid;
+    border-radius: 10px;
+    border-style: grey solid;
+    padding: 10px;
+}
+
+.rivers-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    grid-row: 2/3;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
