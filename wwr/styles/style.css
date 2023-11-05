@@ -285,7 +285,8 @@ footer .social img {
     background-color: lightgoldenrodyellow;
     border: 1px solid;
     border-radius: 10px;
-    border-style: grey solid;
+    border-style: solid;
+    border-color: grey;
     padding: 10px;
 }
 
@@ -293,7 +294,8 @@ footer .social img {
     background-color: lightgoldenrodyellow;
     border: 1px solid;
     border-radius: 10px;
-    border-style: grey solid;
+    border-style: solid;
+    border-color: grey;
     padding: 10px;
 }
 
@@ -301,7 +303,8 @@ footer .social img {
     background-color: lightgoldenrodyellow;
     border: 1px solid;
     border-radius: 10px;
-    border-style: grey solid;
+    border-style: solid;
+    border-color: grey;
     padding: 10px;
 }
 
