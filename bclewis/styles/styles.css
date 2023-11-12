@@ -103,7 +103,7 @@ nav {
     display: grid;
     grid-template-columns: 3fr 1fr;
     column-gap: 100px;
-    margin: 50px 2% 25px 2%;
+    margin: 50px 10% 25px 10%;
 }
 .getintouch {
     text-align: center;
