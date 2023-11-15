@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 :root {
-  /* change the values below to your colors from your palette */
+  /* colors from my palette */
   --primary-color: #393d3f  ;
   --secondary-color: #fdfdff ;
   --accent1-color: #c6c5b9;
   --accent2-color: #62929e;
   --accent3-color: #546a7b;
 
-  /* change the values below to your chosen font(s) */
+  /* chosen font(s) */
   --heading-font: 'Roboto';
   --paragraph-font: 'Roboto', Helvetica, sans-serif;
 
-  /* these colors below should be chosen from among your palette colors above */
+  /* thematic selections from colors above */
   --headline-color-on-white: #393d3f;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #393d3f; /* paragraph text on a white background */ 
@@ -23,6 +23,9 @@
   --nav-hover-link-color: white;
   --nav-hover-background-color: #393d3f;
 }
+
+/* Global Settings */
+
 body {
     font-family: var(--paragraph-font);
     font-size: 18px;
@@ -48,15 +51,6 @@ nav {
     justify-content: space-around;
     align-items: center;
 }
-.top-main {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    column-gap: 50px;
-    margin: 0px 2% 25px 2%;
-}
-.headshot {
-    margin: auto;
-}
 .button-box {
     margin: 25px 0px 25px 0px;
 }
@@ -73,6 +67,40 @@ nav {
     font-family: var(--paragraph-font);
     background-color: var(--accent2-color);
 }
+.icon {
+    height: 50px;
+    width: 50px;
+}
+.getintouch {
+    text-align: center;
+    border-top: var(--accent3-color) solid;
+    border-bottom: var(--accent3-color) solid;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+footer {
+    background-color: var(--accent3-color);
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 10px;
+}
+footer p {
+    margin: 10px;
+}
+
+/* Home Page Settings*/
+.main-header-home {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 50px;
+    margin: 0px 2% 25px 2%;
+}
+.headshot {
+    margin: auto;
+}
 .key-areas {
     display: grid;
     grid-template-columns: 1fr 2.5fr 1.5fr;
@@ -81,10 +109,6 @@ nav {
     border-bottom: var(--accent3-color) solid;
     padding-top: 25px;
     padding-bottom: 25px;
-}
-.icon {
-    height: 50px;
-    width: 50px;
 }
 .key-areas h3 {
     margin-top: 10px;
@@ -105,22 +129,41 @@ nav {
     column-gap: 100px;
     margin: 50px 10% 25px 10%;
 }
-.getintouch {
+
+/* Unique to Experience Page */
+.main-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 25px;
+    margin: 2%;
+}
+.experience {
+    text-align: center;
+    align-self: center;
+    padding: 2%;
+}
+.main-header img {
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+}
+.exp-segment {
     text-align: center;
     border-top: var(--accent3-color) solid;
-    border-bottom: var(--accent3-color) solid;
+    /* border-bottom: var(--accent3-color) solid; */
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 25%;
-    padding-right: 25%;
 }
-footer {
-    background-color: var(--accent3-color);
-    text-align: center;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-bottom: 10px;
+.exp-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    margin: 2%;
 }
-footer p {
-    margin: 10px;
+.exp-details img {
+    width: max-content;
+}
+.exp-details ul {
+    text-align: left;
+    margin: 0px;
 }
