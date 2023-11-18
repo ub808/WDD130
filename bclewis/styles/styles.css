@@ -137,7 +137,7 @@ footer p {
     column-gap: 25px;
     margin: 2%;
 }
-.experience {
+.experience, .education {
     text-align: center;
     align-self: center;
     padding: 2%;
@@ -147,23 +147,23 @@ footer p {
     justify-content: center;
     align-self: center;
 }
-.exp-segment {
+.exp-segment, .edu-segment {
     text-align: center;
     border-top: var(--accent3-color) solid;
     /* border-bottom: var(--accent3-color) solid; */
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.exp-details {
+.exp-details, .edu-details {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 25px;
     margin: 2%;
 }
-.exp-details img {
+.exp-details img, .edu-details img {
     width: max-content;
 }
-.exp-details ul {
+.exp-details ul, .edu-details ul {
     text-align: left;
     margin: 0px;
 }
